@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #f3cb37;
+}
+a {
+    text-decoration: none
+}
+
+.topbutton {
+    width:50px;
+    border:2px solid #514f48;
+    background: #f3cb37;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    left: 15px;
+    cursor:pointer;
+    color: #8f8048;
+    font-size:18px;
+    border-radius: 100px;
+    z-index: 100;
+}
+
+.topbutton:hover {
+    border: 2px solid #22211e;
+    background-color: #ededed;
+    color: #22211e;
+}
